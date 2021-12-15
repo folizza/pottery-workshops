@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+        <meta name="description" content="PotteryAndCeramics">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <title>Pottery and Ceramics</title>
+    </head>
+    
+    <body>
+        <header id="header" class="header">
+            <div class="container">
+                <div class="nav">
+                    <div class="logo-info">
+                        <img class="logo" src="img/logo.svg" alt="Pottery and Ceramics" title="logo">
+                        <p class="name">Pottery & Ceramics</p>
+                    </div>
+                    <ul class="menu">
+                        <li><a class="nav-link" href="#header">Главная</a></li>
+                        <li><a class="nav-link" href="#workshops">Мастер-классы</a></li>
+                        <li><a class="nav-link" href="#reasons-to-try">О нас</a></li>
+                        <li><a class="nav-link" href="#questions">Контакты</a></li>
+                     </ul>
+                     <a class="tel" href="tel:+70000000000">+7(000)000-00-00</a>
+                </div>
+                <div class="offer">
+                    <h1>Гончарная мастерская в Москве</h1>
+                    <p id="main-description">Проводим мастер-классы по лепке из глины и гончарному мастерству для детей и взрослых.
+                    Обучаем гончарному искусству</p>
+                    <a href="#" id="main-btn" class="btn">Выбрать мастер-класс</a>
+                </div>
+            </div>
+        </header>
+
+        <section id="process">
+            <div class="container">
+               <div class="pros">
+                   <img class="pros-img" src="img/pros1.svg">
+                   <img class="pros-img" src="img/pros2.svg">
+                   <img class="pros-img" src="img/pros3.svg">
+               </div>
+
+               <h2>Вдохновитесь процессом создания</h2>
+               <div class="video">
+                   <video class="video" title="video player" controls>
+                       <source src="img/video.mp4" type="video/mp4">
+                       Your browser does not support the video tag.
+                       </video>
+               </div>
+            </div>
+        </section>
+
+        <section id="reasons-to-try">
+            <div class="container">
+                <h2>Почему вам стоит попробовать?</h2>
+                    <div class="reasons">
+                        <img class="reason" src="img/reason1.jpg">
+                        <img class="reason" src="img/reason2.jpg">
+                        <img class="reason" src="img/reason3.jpg">
+                    </div>
+                    <div class="reasons-description">
+                        <div class="descr">
+                            <p class="reason-name">Досуг и впечатления</p>
+                            <p class="reason-descr">Новые знакомства, фотографии на память и интересные беседы </p>
+                        </div>
+                        <div class="descr">
+                            <p class="reason-name">Изделия на память</p>
+                            <p class="reason-descr">Все изделия, которые вы сделаете, сможете забрать домой и использовать в быту </p>
+                        </div>
+                        <div class="descr">
+                            <p class="reason-name">Отдых от суеты</p>
+                            <p class="reason-descr">Возможность насладиться спокойствием в уютной обстановке</p>
+                        </div>
+                    </div>
+                    <div id="client-works">
+                        <h2 id="client-works-h2">Работы наших гостей</h2>
+                        <div class="main-carousel">
+                            <div class="carousel-cell"><img src="img/client_work_1.jpg"></div>
+                            <div class="carousel-cell"><img src="img/client_work_2.jpg"></div>
+                            <div class="carousel-cell"><img src="img/client_work_3.jpg"></div>
+                            <div class="carousel-cell"><img src="img/client_work_4.jpg"></div>
+                            <div class="carousel-cell"><img src="img/client_work_5.jpg"></div>
+                        </div>
+                    </div>
+
+        </section>
+        <section id="workshops">
+            <div class="container">
+                <h2>Наши мастер-классы</h2>
+                <div class="row">
+                    <div class="col-sm-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Ручная лепка</h5>
+                          <ul class="card-text">
+                              <li>Расскажем про технику ручной лепки из глины</li>
+                              <li>Слепим изделие на ваш выбор</li>
+                              <li>Покроем изделие в прозрачную глазурь, чтобы оно стало функциональным или пригласим на занятие по глазуровке</li>
+                          </ul>
+                          <p>Посуду можно использовать на кухне и греть в микроволновке</p>
+                          <p class="price">2300 рублей</p>
+                          <p class="duration">1,5 часа / 1 изделие</p>
+                          <a href="#" class="btn" id="workshop-btn">Забронировать место</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Гончарный круг</h5>
+                          <ul class="card-text">
+                            <li>Расскажем про технику работы за гончарным кругом</li>
+                            <li>Слепим изделие на ваш выбор</li>
+                            <li>Покроем изделие в прозрачную глазурь, чтобы оно стало функциональным или пригласим на занятие по глазуровке</li>
+                          </ul>
+                          <p>Посуду можно использовать на кухне и греть в микроволновке</p>
+                          <p class="price">2500 рублей</p>
+                          <p class="duration">1,5 часа / 1 изделие</p>
+                          <a href="#" class="btn" id="workshop-btn">Забронировать место</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card">
+                          <div class="card-body">
+                            <h5 class="card-title">Детский мастер-класс</h5>
+                            <ul class="card-text">
+                                <li>Занятия проходят в игровой форме</li>
+                                <li>Развиваем мелкую моторику рук и творческое мышления</li>
+                                <li>Родители могут участвовать в процессе занятия</li>
+                                <li>Для детей от 4 до 13 лет</li>
+                            </ul>
+                            <p>Посуду можно использовать на кухне и греть в микроволновке</p>
+                            <p class="price">2500 рублей</p>
+                            <p class="duration">1,5 часа / 1 изделие</p>
+                            <a href="#" class="btn" id="workshop-btn">Забронировать место</a>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+            </div>
+        </section>
+        <section id="faq">
+            <div class="container">
+                <h2 id="h2-faq">Часто задаваемые вопросы</h2>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h3 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Что такое ручная лепка?
+                        </button>
+                      </h3>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Это лепка за столом. На мастер-классе по ручной лепке можно сделать тарелки, чашки, сахарницы и множество других керамических изделий. Важно помнить, что ваши керамические изделия не будут идеально ровной формы, но точно будут сделаны с душо
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h3 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Как проходит мастер-класс по лепке?
+                        </button>
+                      </h3>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>Это тело аккордеона второго элемента.</strong> По умолчанию он скрыт, пока плагин свертывания не добавит соответствующие классы, которые мы используем для стилизации каждого элемента. Эти классы управляют общим внешним видом, а также отображением и скрытием с помощью переходов CSS. Вы можете изменить все это с помощью собственного CSS или переопределить наши переменные по умолчанию. Также стоит отметить, что практически любой HTML может быть помещен в <code>.accordion-body</code>, хотя переход ограничивает переполнение.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h3 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            На мастер-классе можно работать за кругом?
+                        </button>
+                      </h3>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>Это тело аккордеона третьего элемента.</strong> По умолчанию оно скрыто, пока плагин свертывания не добавит соответствующие классы, которые мы используем для стилизации каждого элемента. Эти классы управляют общим внешним видом, а также отображением и скрытием с помощью переходов CSS. Вы можете изменить все это с помощью собственного CSS или переопределить наши переменные по умолчанию. Также стоит отметить, что практически любой HTML может быть помещен в <code>.accordion-body</code>, хотя переход ограничивает переполнение.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="headingFour">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Когда можно забрать изделия с мастер-класса по керамике?
+                          </button>
+                        </h3>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>Это тело аккордеона третьего элемента.</strong> По умолчанию оно скрыто, пока плагин свертывания не добавит соответствующие классы, которые мы используем для стилизации каждого элемента. Эти классы управляют общим внешним видом, а также отображением и скрытием с помощью переходов CSS. Вы можете изменить все это с помощью собственного CSS или переопределить наши переменные по умолчанию. Также стоит отметить, что практически любой HTML может быть помещен в <code>.accordion-body</code>, хотя переход ограничивает переполнение.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h3 class="accordion-header" id="headingFive">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Можно ли мыть изделие в посудомойке?
+                          </button>
+                        </h3>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>Это тело аккордеона третьего элемента.</strong> По умолчанию оно скрыто, пока плагин свертывания не добавит соответствующие классы, которые мы используем для стилизации каждого элемента. Эти классы управляют общим внешним видом, а также отображением и скрытием с помощью переходов CSS. Вы можете изменить все это с помощью собственного CSS или переопределить наши переменные по умолчанию. Также стоит отметить, что практически любой HTML может быть помещен в <code>.accordion-body</code>, хотя переход ограничивает переполнение.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h3 class="accordion-header" id="headingSix">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                             Можно ли греть посуду ручной работы в микроволновке?
+                          </button>
+                        </h3>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>Это тело аккордеона третьего элемента.</strong> По умолчанию оно скрыто, пока плагин свертывания не добавит соответствующие классы, которые мы используем для стилизации каждого элемента. Эти классы управляют общим внешним видом, а также отображением и скрытием с помощью переходов CSS. Вы можете изменить все это с помощью собственного CSS или переопределить наши переменные по умолчанию. Также стоит отметить, что практически любой HTML может быть помещен в <code>.accordion-body</code>, хотя переход ограничивает переполнение.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h3 class="accordion-header" id="headingSeven">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            Можно ли есть из сделанной посуды?
+                          </button>
+                        </h3>
+                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>Это тело аккордеона третьего элемента.</strong> По умолчанию оно скрыто, пока плагин свертывания не добавит соответствующие классы, которые мы используем для стилизации каждого элемента. Эти классы управляют общим внешним видом, а также отображением и скрытием с помощью переходов CSS. Вы можете изменить все это с помощью собственного CSS или переопределить наши переменные по умолчанию. Также стоит отметить, что практически любой HTML может быть помещен в <code>.accordion-body</code>, хотя переход ограничивает переполнение.
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+            </div>
+        </section>
+        <section id="questions">
+            <div class="container">
+                <h2>Остались вопросы?</h2>
+                <p>Свяжитесь с нами заполнив форму ниже</p>
+                <div class="questions-content">
+                    <form id="question-form" class="row" action="#" method="GET" enctype="multipart/form-data">
+                        <div id="contact-input" class="col">
+                            <label class="label" id="name-label">Имя</label>
+                            <input id="name" type="text" name="username" placeholder="Введите ваше имя" required>
+                            <label class="label" id="email-label">E-mail</label>
+                            <input id="email" type="email" name="usermail" placeholder="Введитет ваш Email" required>
+                        </div>
+                        <div class="col">
+                            <p class="label">Сообщение</p>
+                            <textarea class="input-textarea" placeholder="Введите сообщение"></textarea>
+                            <button id="submit" type="submit">Отправить</button>
+                        </div>
+                    </form>
+                <img   id="questions-img" src="img/questions.jpg">           
+                </div>     
+            </div>
+        </section>
+        <section id="contacts">
+            <div class="container">
+                <h2>Контакты</h2>
+                <div class="row">
+                    <div class="col">
+                        <p class="contacts-heading">Адресс</p>
+                        <p class="contacts-description">Город, Страна м. Метро, ул. Улица, д. 15</p>
+                    </div>
+                    <div class="col">
+                        <p class="contacts-heading">Режим работы</p>
+                        <p class="contacts-description">Каждый день с 11 до 21 </p>
+                    </div>
+                    <div class="col">
+                        <p class="contacts-heading">Телефон</p>
+                        <p class="contacts-description">+ 7 (000) 000-00-00</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-nav">
+                <div class="logo-info">
+                    <img class="logo" src="img/logo.svg" alt="Pottery and Ceramics" title="logo">
+                    <p class="name">Pottery & Ceramics</p>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <ul class="footer-menu">
+                            <li><a href="#header" class="footer-link">Главная</a></li>
+                            <li><a href="#reasons-to-try" class="footer-link">О нас</a></li>
+                            <li><a href="#process" class="footer-link">Процесс</a></li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <ul class="footer-menu">
+                            <li><a href="#client-works" class="footer-link">Отзывы</a></li>
+                            <li><a href="#workshops" class="footer-link">Мастер&hybull;классы</a></li>
+                            <li><a href="#faq" class="footer-link">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        <hr />
+            <div class="social-media">
+                <a href="https://www.instagram.com"><img class="social-media-img" src="img/instagram.png"></a>
+                <a href="https://web.telegram.org/z/"><img class="social-media-img" src="img/telegram.png"></a>
+                <a href="https://www.whatsapp.com/?lang=ru"><img class="social-media-img" src="img/whatsapp.png"></a>
+                <ul class="footer-links">
+                    <li><a href="#">Политика конфиденциальности</a></li>
+                    <li><a href="#">Соглашение на обработку персональных данных</a></li>
+                    <li><a href="#">pottery@gmal.com</a></li>
+                </ul>
+            </div>
+
+        </footer>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+        <script type="text/javascript">
+            $('.main-carousel').flickity({
+                // options
+                cellAlign: 'left',
+                wrapAround: true,
+                freeScroll: true
+              });
+        </script>
+    </body>
+
+</html>
