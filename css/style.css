@@ -49,29 +49,31 @@ header li {
 }
 
 .logo {
-  margin-right: 10px;
+  /* margin-right: 300px; */
 }
 
 
 .menu {
+  padding-left: 300px;
   display: flex;
 }
 
 .menu li{
-  margin-right: 30px;
+  margin-right: 17px;
+  font-weight: 400;
 }
 
 .nav {
   display: flex;
   align-items: center;
-  padding-top: 27px;
+  padding-top: 30px;
   letter-spacing: 0.1em;
 }
 
 .tel {
   text-decoration: none;
   margin-left: auto;
-  font-size: 14px;
+  font-size: 15px;
   letter-spacing: 0.1em;
 }
 
@@ -80,25 +82,19 @@ header li {
   align-items: center;
 }
 
-.name {
-  color: #F6F3F0;
-  margin-right: auto;
-  padding-top: 17px;
-  margin-right: 90px;
-  font-size: 18px;
-  font-weight: 400;
-}
 
 .offer h1 {
-  margin-top: 280px;
+  margin-top: 105px;
   color: #F6F3F0;
   font-size: 72px;
 }
 
 #main-description {
   color: #F6F3F0;
-  font-size: 32px;
+  font-size: 20px;
+  width: 546px;
   text-align: start;
+  padding: 30px 0 30px 0;
 }
 
 .btn {
@@ -108,12 +104,12 @@ header li {
   padding: 0.9em;
   background-color: #F6F3F0;
   color: #23190B;
-  font-size: 1.25em;
+  font-size: 1em;
   border-radius: 4em;
   height: 3.25em;
   width: 15em;
-  font-weight: 300;
-  box-shadow: 0px 1px 18px rgba(0, 0, 0, 0.25);
+  font-weight: 500;
+  box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.25);
 }
 
 .btn:hover{
@@ -131,43 +127,47 @@ header li {
 }
 
 h2 {
-  font-size: 36px;
-  font-weight: 600;
+  font-size: 30px;
+  font-weight: 500;
   margin-top: 60px;
   margin-bottom: 60px;
 
 }
 
 .video {
-  width: 1042px;
-  height: 544px;
-  margin-left: 25px;
+  width: 1170px;
+}
+
+#reasons-to-try {
+  padding-top: 60px;
+}
+
+.all-reasons{
+  display: flex;
+  margin-left: 70px;
 }
 
 .reasons {
   display: flex;
-  margin-left: 130px;
-  justify-content: space-between;
+  display: inline;
+  margin-right: 174px;
 }
 
 .reasons-description {
   display: flex;
-  margin-left: 100px;
   margin-top: 32px;
-  justify-content: space-between;
-  margin-right: 100px;
 }
 
 .reason {
   width: 156px;
   border-radius: 50%;
-  margin-right: 174px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .descr {
   width: 250px;
   justify-content: start;
-  /* margin-bottom: 57px; */
 }
 
 .reason-name {
@@ -190,15 +190,15 @@ h2 {
 }
 
 #workshops {
-  /* background-color: #23190B; */
-  margin-top: 200px;
-  height: 750px;
+  /* margin-top: 120px; */
+  padding-top: 80px;
+  height: 810px;
 }
 .card {
   display: flex;
   width: 370px;
   height: 572px;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   border-radius: 40px;
   background-color: #9F958B;
   color: #F6F3F0;
@@ -241,11 +241,12 @@ h2 {
 
 #faq {
   background: url('../img/faq-bg.jpg') ;
+  height: 720px;
 }
 
 #h2-faq {
   text-align: center;
-  padding-top: 95px;
+  padding-top: 60px;
   color: #F6F3F0;
 }
 
@@ -256,12 +257,12 @@ h2 {
 }
 
 .accordion-button {
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .accordion-body {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 400;
 }
 
@@ -285,11 +286,10 @@ h2 {
 form {
   /* background-color:#9F958B; */
   width: 600px;
-  
 }
 
 #question-form{
-  margin-top: 62px;
+  margin-top: 40px;
 }
 
 #questions-img{
@@ -363,6 +363,15 @@ footer {
   background-color: #1D1408;
 }
 
+
+.name {
+  color: #F6F3F0;
+  padding-top: 17px;
+  font-size: 17px;
+  font-weight: 400;
+  padding-left: 10px;
+}
+
 .footer-nav {
   color: #F6F3F0;
   display: flex;
@@ -375,10 +384,10 @@ footer {
 .footer-nav li {
   list-style: none;
 }
+
 .footer-nav .row {
   margin-left: auto;
 }
-
 
 .social-media-img {
   width: 33px;
@@ -406,6 +415,8 @@ footer {
   text-decoration: none;
   color: #F6F3F0;
   margin-left: 100px;
+  font-size: 15px;
+  line-height: 29px;
 }
 
 hr {
@@ -413,4 +424,154 @@ hr {
   margin-left: 215px;
   margin-top: 76px;
   color: #F6F3F0;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .container {
+    width: 960px;
+  }
+  .pros img:nth-child(1){
+    width: 30%;
+  }
+  .pros img:nth-child(2){
+    width: 30%;
+  }
+  .pros img:nth-child(3){
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 540px;
+  }
+  .menu {
+    display: none;
+  }
+  h1 {
+    line-height: 1em;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  #main-description {
+    text-align: center;
+  }
+
+  #main-btn{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .pros {
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .pros img:nth-child(1),
+  .pros img:nth-child(2),
+  .pros img:nth-child(3){
+    width: 100%;
+  }
+  .video {
+    width: 100%;
+  }
+  .all-reasons{
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  .reasons {
+    margin-bottom: 20px;
+    align-content: center;
+  }
+
+  #reasons-to-try{
+    margin-top: 80px;
+    margin-bottom: 100px;
+  }
+
+  #workshops{
+    margin-top: 760px;
+    margin-bottom: 1300px;
+  }
+
+  .card{
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card-text {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .accordion {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #faq {
+    height: auto;
+  }
+
+  #questions p {
+    text-align: center;
+  }
+
+  .questions-content {
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+  }
+
+  #questions-img {
+    order: -1;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+  }
+
+  #contacts {
+    flex-wrap: wrap;
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 300px;
+  }
+
+
+  footer {
+    margin-top: 270px;
+  }
+
+}
+
+@media screen and (max-width: 575px) {
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
 }
